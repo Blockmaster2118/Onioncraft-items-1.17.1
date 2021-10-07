@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " g ",
+        "MAB",
+        " F "
+    ],
+    "key": {
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "M": {
+            "item": "minecraft:magma_cream"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "B": {
+            "item": "minecraft:blaze_powder"
+        },
+        "F": {
+            "item": "minecraft:fire_charge"
+        }
+    },
+    "result": {
+        "item": "onioncraft:draconia_crystal"
+    }
+}
