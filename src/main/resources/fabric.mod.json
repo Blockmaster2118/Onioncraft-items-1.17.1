@@ -9,7 +9,8 @@
     "Blockmaster2118"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/"
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Blockmaster2118/Onioncraft-items-1.17.1"
   },
 
   "license": "CC0-1.0",
