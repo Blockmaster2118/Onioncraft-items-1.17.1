@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "onioncraft:item/fire_draconia_crystal"
+    "layer0": "onioncraft:item/soul_reaper"
   }
 }

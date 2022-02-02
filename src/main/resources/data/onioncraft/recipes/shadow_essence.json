@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "TDC",
+        " E "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "T": {
+            "item": "minecraft:tinted_glass"
+        },
+        "D": {
+            "item": "minecraft:dragon_breath"
+        },
+        "C": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        }
+    },
+    "result": {
+        "item": "onioncraft:shadow_essence"
+    }
+}

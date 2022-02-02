@@ -2,6 +2,7 @@ package net.blockmaster.onioncraft.item;
 
 import net.blockmaster.onioncraft.OnionCraft;
 import net.blockmaster.onioncraft.materials.DraconiaMaterial;
+import net.blockmaster.onioncraft.materials.ShadowMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,7 +16,12 @@ public class ModItems {
     public static final Item FIRE_DRACONIA_CRYSTAL = registerItem("fire_draconia_crystal",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item SHADOW_ESSENCE = registerItem("shadow_essence",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     public static final ToolItem INFERNO = (ToolItem) registerItem("inferno", new SwordItem(DraconiaMaterial.INSTANCE, 7, 2.6f, new FabricItemSettings().group(ItemGroup.COMBAT)));
+
+    public static final ToolItem SOUL_REAPER = (ToolItem) registerItem("soul_reaper", new SwordItem(ShadowMaterial.INSTANCE, 7, 2.6f, new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     private static Item registerItem(String name,Item item) {
         return Registry.register(Registry.ITEM, new Identifier(OnionCraft.Mod_ID, name), item);
